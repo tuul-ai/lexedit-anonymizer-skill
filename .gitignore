@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# never commit anonymization mappings — they contain the original PII
+*.map.json
+*.masked.txt
+*.restored.txt
