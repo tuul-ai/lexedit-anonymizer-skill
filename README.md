@@ -22,7 +22,7 @@ out:  Pozwany [PER_6E06C0CA], zam. [LOC_A533FC9E] w Krakowie, PESEL [ID_D574D3B3
 ## Install
 
 ```bash
-git clone <REPO_URL> ~/.claude/skills/lexedit-anonymizer
+git clone https://github.com/tuul-ai/lexedit-anonymizer-skill ~/.claude/skills/lexedit-anonymizer
 pip install -r ~/.claude/skills/lexedit-anonymizer/requirements.txt
 ```
 
