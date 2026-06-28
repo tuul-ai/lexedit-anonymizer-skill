@@ -11,6 +11,13 @@ Powered by the open **HerBERT** Polish legal NER models on HuggingFace
 [OCR-robust](https://huggingface.co/lexedit/herbert-polish-legal-ner-ocr)) running
 locally via ONNX. **No document text ever leaves the machine.**
 
+The models are **[HerBERT](https://huggingface.co/allegro/herbert-base-cased)**
+(`allegro/herbert-base-cased`) **fine-tuned by lexedit on a mix of synthetic and
+real Polish legal documents** — programmatically-generated labelled examples (with
+checksum-valid synthetic identifiers and rule-based Polish name declension) plus
+real-world legal-document samples; the OCR-robust variant adds a render→OCR
+augmentation step for scanned text.
+
 ```text
 in:   Pozwany Jan Kowalski, zam. ul. Słoneczna 5 w Krakowie, PESEL 02070803628,
       e-mail jan.kowalski@example.pl. Pełnomocnik: r.pr. Anna Nowak-Kowalska.
